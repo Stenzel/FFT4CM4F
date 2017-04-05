@@ -19,12 +19,12 @@ License is the same as the original djbfft, which is in the public domain.
 For benchmarking, I ran tests on a STM32F466 MCU against the CMSIS routines, all without bitreversing. 
 
 
-Here the results for real transforms, r+ indicated forward, r- inverse transform:
+Here the results for real transforms, r+ indicates forward, r- inverse transform:
 
 
 |real|cycles|performance (N * log2(N)/cycles) |
 |-|-|-|
-|16 r+ CMSIS_5|446122|more than c+ 4096? must be a bug.|
+|16 r+ CMSIS_5|446122|bug?|
 |16 r+ FFT4CM4F|219|::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::|
 |16 r- CMSIS_5|446651|something weird going on here as well.|
 |16 r- FFT4CM4F|210|:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::|
