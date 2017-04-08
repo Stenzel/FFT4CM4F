@@ -11,9 +11,9 @@ It contains gcc style inline assembly, so it might not work for some compilers.
 
 This is a work in progress, but since it is useful for me at this stage, it might be so for others. License is the same as the original djbfft, which is in the public domain.
 
-The result were obtained by running the benchmark.c on a STM32F466 MCU. All FFT were performed without bitreversing. 
+The results were obtained by running the benchmark.c on a STM32F466 MCU. All FFT were performed without bitreversing. 
 
-Here the results for real transforms, r+ indicates forward, r- inverse transform:
+First the real transforms, r+ indicates forward, r- inverse transform:
 
 |Transform|Cycles|Performance (N * log2(N)/cycles) |
 |-|-|-|
